@@ -17,6 +17,10 @@ terraform {
       source  = "browningluke/opnsense"
     }
 
+    proxmox = {
+      source = "bpg/proxmox"
+      version = "0.89.1"
+    }
   }
 }
 
